@@ -91,7 +91,7 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Ruhith <span className={styles.accentText}>pasha</span>
           </h1>
 
           <div className={styles.developerRole}>Full Stack Web Developer</div>

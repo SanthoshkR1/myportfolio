@@ -4,8 +4,8 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Nitin Ranganath</h1>
-        <div className={styles.subtitle}>Software Engineer</div>
+        <h1 className={styles.title}>Ruhith Pasha</h1>
+        <div className={styles.subtitle}>Full Stack Developer</div>
 
         <div className={styles.aboutContent}>
           <section className={styles.section}>
@@ -23,19 +23,16 @@ const AboutPage = () => {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
-              Currently at <span className={styles.highlight}>Tessact</span> as
-              Software Engineer 2, working with a lean team of 4 frontend
-              engineers to build a next-gen video creation suite for the people
-              of video.
+              Currently at <span className={styles.highlight}><b>Garden City University</b>, Bengaluru</span> as
+              Student, Pursuing Masters in Information Technology with a focus on Artificial Intelligence and Machine Learning
             </p>
             <p className={styles.paragraph}>
-              I&apos;ve been leading the development efforts for bringing
-              collaborative video reviewing and editing to the platform. I also
-              maintain our in-house component library, icon library and website.
+              I&apos;ve worked on many projects, to Learn and Explore the world of Web Development. which includes technologies like React, Node.js, MongoDB, Express and more.
+              By creating an Web application named cloudSync which is a cloud storage application that allows users to store, share and manage their images securely in the cloud and This portfolio is one of my projects that showcases my skills and projects.
             </p>
           </section>
 
-          <section className={styles.section}>
+          {/* <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Writing</h2>
             <p className={styles.paragraph}>
               I&apos;ve had the pleasure of writing for some amazing
@@ -45,7 +42,7 @@ const AboutPage = () => {
               <span className={styles.highlight}>DEV.to</span> and more as a
               freelance technical author.
             </p>
-          </section>
+          </section> */}
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Beyond Code</h2>

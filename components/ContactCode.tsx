@@ -3,39 +3,35 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    link: 'ruhithpasha-portfolio.com',
+    href: 'https://ruhithpasha-portfolio.com',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'pro.ruhithpasha@gmail.com',
+    href: 'mailto:pro.ruhithpasha@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'ruhithpasha',
+    href: 'https://github.com/ruhithpasha',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'ruhithpasha',
+    href: 'https://www.linkedin.com/in/ruhithpasha/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'iamruhithpasha',
+    href: 'https://www.twitter.com/iamruhithpasha',
   },
   {
     social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    link: 'iamruhithpasha',
+    href: 'https://t.me/iamruhithpasha',
   },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
-  },
+  
 ];
 
 const ContactCode = () => {

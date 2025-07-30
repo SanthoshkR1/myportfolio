@@ -3,8 +3,8 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'ruhithpasha-portfolio.com',
-    href: 'https://ruhithpasha-portfolio.com',
+    link: 'portfolioruhith.vercel.app',
+    href: 'https://portfolioruhith.vercel.app',
   },
   {
     social: 'email',

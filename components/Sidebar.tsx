@@ -52,18 +52,10 @@ const Sidebar = () => {
     link.click();
     
     // Clean up
-    setTimeout(() => {
-      document.body.removeChild(link);
-    }, 100);
-  };
-
-  const handleItemClick = (item: any) => {
-    if (item.action === 'download-resume') {
-      handleResumeDownload();
-    }
-  };
-
-  return (
+  setTimeout(() => {
+    document.body.removeChild(link);
+  }, 100);
+};  return (
     <aside className={styles.sidebar}>
       <div className={styles.sidebarTop}>
         {sidebarTopItems.map(({ Icon, path, action }) => (

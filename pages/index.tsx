@@ -7,6 +7,17 @@ import styles from '@/styles/HomePage.module.css';
 export default function HomePage() {
   const [activeLineIndex, setActiveLineIndex] = useState(0);
 
+  const handleResumeDownload = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'Ruhith_Pasha_Resume.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const codeLines = [
     { code: 'const HomePage = () => {', type: 'function' },
     {
@@ -106,6 +117,16 @@ export default function HomePage() {
               View Projects <VscArrowRight />
             </Link>
           </div>
+          <div className={styles.actionLinks}>
+            <a 
+              onClick={handleResumeDownload}
+              className={styles.primaryLink}
+              style={{ cursor: 'pointer' }}
+            >
+              Download Resume <VscArrowRight />
+            </a>
+          </div>
+
         </div>
       </div>
 

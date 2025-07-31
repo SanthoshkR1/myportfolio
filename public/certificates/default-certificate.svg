@@ -1,0 +1,44 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="400" height="60" fill="#007acc"/>
+  <text x="200" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    CERTIFICATE OF COMPLETION
+  </text>
+  
+  <!-- Main Content -->
+  <text x="200" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="16">
+    This is to certify that
+  </text>
+  
+  <text x="200" y="130" text-anchor="middle" fill="#007acc" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Ruhith Pasha
+  </text>
+  
+  <text x="200" y="160" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="16">
+    has successfully completed
+  </text>
+  
+  <text x="200" y="190" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    Professional Development Course
+  </text>
+  
+  <!-- Footer -->
+  <line x1="50" y1="240" x2="150" y2="240" stroke="#333" stroke-width="1"/>
+  <text x="100" y="255" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">
+    Date
+  </text>
+  
+  <line x1="250" y1="240" x2="350" y2="240" stroke="#333" stroke-width="1"/>
+  <text x="300" y="255" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">
+    Signature
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="15" fill="#ffd700" opacity="0.3"/>
+  <circle cx="350" cy="50" r="15" fill="#ffd700" opacity="0.3"/>
+  <circle cx="50" cy="250" r="15" fill="#ffd700" opacity="0.3"/>
+  <circle cx="350" cy="250" r="15" fill="#ffd700" opacity="0.3"/>
+</svg>

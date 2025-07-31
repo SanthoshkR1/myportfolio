@@ -9,6 +9,8 @@ import {
   VscFiles,
   VscEdit,
   VscRocket,
+  VscCloudDownload,
+  VscMortarBoard,
 } from 'react-icons/vsc';
 
 import styles from '@/styles/Sidebar.module.css';
@@ -20,6 +22,8 @@ const sidebarTopItems = [
   { Icon: VscEdit, path: '/articles' },
   { Icon: VscMail, path: '/contact' },
   { Icon: VscRocket, path: '/skills' },
+  { Icon: VscMortarBoard, path: '/certificates' },
+  { Icon: VscCloudDownload, path: '#', action: 'download-resume' },
 ];
 
 const sidebarBottomItems = [
@@ -30,27 +34,72 @@ const sidebarBottomItems = [
 const Sidebar = () => {
   const router = useRouter();
 
+  const handleResumeDownload = (e?: React.MouseEvent) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    
+    // Use a more efficient download method
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'Ruhith_Pasha_Resume.pdf';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    
+    // Append to body temporarily for cross-browser compatibility
+    document.body.appendChild(link);
+    link.click();
+    
+    // Clean up
+    setTimeout(() => {
+      document.body.removeChild(link);
+    }, 100);
+  };
+
+  const handleItemClick = (item: any) => {
+    if (item.action === 'download-resume') {
+      handleResumeDownload();
+    }
+  };
+
   return (
     <aside className={styles.sidebar}>
       <div className={styles.sidebarTop}>
-        {sidebarTopItems.map(({ Icon, path }) => (
-          <Link href={path} key={path}>
-            <div
-              className={`${styles.iconContainer} ${
-                router.pathname === path && styles.active
-              }`}
-            >
-              <Icon
-                size={16}
-                fill={
-                  router.pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
-                }
-                className={styles.icon}
-              />
-            </div>
-          </Link>
+        {sidebarTopItems.map(({ Icon, path, action }) => (
+          <div key={path} className={styles.iconContainer}>
+            {action === 'download-resume' ? (
+              <div
+                className={`${styles.iconContainer} ${styles.resumeButton}`}
+                onClick={handleResumeDownload}
+                title="Download Resume"
+              >
+                <Icon
+                  size={16}
+                  fill="rgb(106, 115, 125)"
+                  className={styles.icon}
+                />
+              </div>
+            ) : (
+              <Link href={path}>
+                <div
+                  className={`${styles.iconContainer} ${
+                    router.pathname === path && styles.active
+                  }`}
+                >
+                  <Icon
+                    size={16}
+                    fill={
+                      router.pathname === path
+                        ? 'rgb(225, 228, 232)'
+                        : 'rgb(106, 115, 125)'
+                    }
+                    className={styles.icon}
+                  />
+                </div>
+              </Link>
+            )}
+          </div>
         ))}
       </div>
       <div className={styles.sidebarBottom}>

@@ -1,0 +1,49 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#232F3E" stroke="#FF9900" stroke-width="3"/>
+  
+  <!-- AWS Header -->
+  <rect x="0" y="0" width="400" height="60" fill="#FF9900"/>
+  <text x="50" y="35" fill="#232F3E" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Amazon Web Services
+  </text>
+  <text x="350" y="35" text-anchor="end" fill="#232F3E" font-family="Arial, sans-serif" font-size="12">
+    aws
+  </text>
+  
+  <!-- Certificate Title -->
+  <text x="200" y="90" text-anchor="middle" fill="#FF9900" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    AWS CERTIFIED
+  </text>
+  <text x="200" y="110" text-anchor="middle" fill="#FF9900" font-family="Arial, sans-serif" font-size="16">
+    Cloud Practitioner
+  </text>
+  
+  <!-- Main Content -->
+  <text x="200" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">
+    This is to certify that
+  </text>
+  
+  <text x="200" y="165" text-anchor="middle" fill="#FF9900" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    Ruhith Pasha
+  </text>
+  
+  <text x="200" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">
+    has successfully passed the
+  </text>
+  <text x="200" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">
+    AWS Certified Cloud Practitioner examination
+  </text>
+  
+  <!-- Footer -->
+  <text x="100" y="250" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="10">
+    November 2024
+  </text>
+  
+  <text x="300" y="250" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="10">
+    Certificate ID: AWS-CCP-2024-001
+  </text>
+  
+  <!-- AWS Logo placeholder -->
+  <rect x="320" y="70" width="60" height="30" fill="#FF9900" opacity="0.3"/>
+</svg>

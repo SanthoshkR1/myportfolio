@@ -8,6 +8,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'CloudSync',
+    description:
+      'Image management system with dual storage - uploads to Cloudinary with local backup storage to ensure data integrity and prevent image loss.',
+    logo: '/logos/react_icon.svg',
+    link: 'https://cloudapp-frontend-kohl.vercel.app/',
+    slug: 'cloudsync',
+  },
+  {
     title: 'AI-Powered Content Platform',
     description:
       'Full-stack web application with AI integration for intelligent content generation and analysis.',
@@ -28,7 +36,7 @@ export const projects: Project[] = [
     description:
       'A Visual Studio Code themed developer portfolio showcasing full-stack and AI/ML expertise.',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/ruhithpasha/vscode-portfolio',
+    link: 'https://portfolioruhith.vercel.app/',
     slug: 'vscode-portfolio',
   },
   {

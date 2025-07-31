@@ -17,6 +17,11 @@ const Tabsbar = () => {
       />
       <Tab
         icon="/logos/markdown_icon.svg"
+        filename="certificates.md"
+        path="/certificates"
+      />
+      <Tab
+        icon="/logos/markdown_icon.svg"
         filename="github.md"
         path="/github"
       />

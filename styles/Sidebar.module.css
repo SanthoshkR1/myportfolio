@@ -29,6 +29,23 @@
   margin: 0 auto;
 }
 
+.resumeButton {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.resumeButton:hover {
+  background: var(--sidebar-hover-bg);
+}
+
+.resumeButton:hover .icon {
+  fill: rgb(225, 228, 232) !important;
+}
+
+.resumeButton:active {
+  transform: scale(0.95);
+}
+
 @media screen and (min-width: 2000px) {
   .sidebar {
     width: 2.5vw;

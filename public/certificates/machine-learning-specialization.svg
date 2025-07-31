@@ -1,0 +1,50 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Stanford Logo Area -->
+  <rect x="0" y="0" width="400" height="50" fill="#8C1515"/>
+  <text x="200" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    STANFORD UNIVERSITY
+  </text>
+  
+  <!-- Certificate Title -->
+  <text x="200" y="80" text-anchor="middle" fill="#8C1515" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    CERTIFICATE OF COMPLETION
+  </text>
+  
+  <!-- Main Content -->
+  <text x="200" y="110" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">
+    This is to certify that
+  </text>
+  
+  <text x="200" y="135" text-anchor="middle" fill="#8C1515" font-family="Arial, sans-serif" font-size="22" font-weight="bold">
+    Ruhith Pasha
+  </text>
+  
+  <text x="200" y="160" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">
+    has successfully completed the
+  </text>
+  
+  <text x="200" y="185" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Machine Learning Specialization
+  </text>
+  
+  <text x="200" y="205" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">
+    an online course authorized by Stanford University
+  </text>
+  
+  <!-- Footer -->
+  <text x="100" y="250" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">
+    December 2024
+  </text>
+  
+  <text x="300" y="250" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">
+    Verified Certificate
+  </text>
+  
+  <!-- Coursera branding -->
+  <text x="200" y="270" text-anchor="middle" fill="#0056D3" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+    Coursera
+  </text>
+</svg>

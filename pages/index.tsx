@@ -15,8 +15,8 @@ export default function HomePage() {
     },
     { code: '  const developerInfo = {', type: 'variable' },
     { code: "    name: 'Ruhith Pasha',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    role: 'Full Stack Developer & AI/ML Specialist',", type: 'array-item' },
+    { code: "    bio: 'Building intelligent web applications with AI/ML integration'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -94,11 +94,11 @@ export default function HomePage() {
             Ruhith <span className={styles.accentText}>pasha</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Full Stack Developer & AI/ML Specialist</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            I build intelligent, responsive web applications that integrate AI/ML capabilities. 
+            Focused on practical implementation of machine learning models and modern web technologies.
           </p>
 
           <div className={styles.actionLinks}>

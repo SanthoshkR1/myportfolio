@@ -1,0 +1,247 @@
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.pageHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.pageSubtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 2rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.categorySection {
+  background: var(--article-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.categoryIcon {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.skillCard {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skillHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skillIcon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skillInfo {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillName {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.skillLevel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.progressContainer {
+  width: 100%;
+}
+
+.progressBar {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-color), rgba(var(--accent-color-rgb), 0.8));
+  border-radius: 3px;
+  transition: width 0.8s ease;
+  position: relative;
+}
+
+.progressFill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.additionalInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.infoCard {
+  background: var(--article-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.infoIcon {
+  color: var(--accent-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.infoCard h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.infoCard p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .categorySection {
+    padding: 1.5rem;
+  }
+  
+  .pageTitle {
+    font-size: 1.75rem;
+  }
+  
+  .pageSubtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .additionalInfo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skillCard {
+    padding: 1rem;
+  }
+  
+  .skillHeader {
+    gap: 0.75rem;
+  }
+  
+  .skillIcon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .infoCard {
+    padding: 1.5rem;
+  }
+}

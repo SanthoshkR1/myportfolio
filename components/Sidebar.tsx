@@ -8,6 +8,7 @@ import {
   VscCode,
   VscFiles,
   VscEdit,
+  VscRocket,
 } from 'react-icons/vsc';
 
 import styles from '@/styles/Sidebar.module.css';
@@ -18,6 +19,7 @@ const sidebarTopItems = [
   { Icon: VscCode, path: '/projects' },
   { Icon: VscEdit, path: '/articles' },
   { Icon: VscMail, path: '/contact' },
+  { Icon: VscRocket, path: '/skills' },
 ];
 
 const sidebarBottomItems = [

@@ -7,8 +7,9 @@ const ContactPage = () => {
     <div className={styles.layout}>
       <h1 className={styles.pageTitle}>Contact Me</h1>
       <p className={styles.pageSubtitle}>
-        Feel free to reach out to me through any of the social platforms below.
-        I&apos;m always open to new opportunities and connections.
+        Looking for a full-stack developer with AI/ML expertise? Let&apos;s connect! 
+        I&apos;m open to opportunities involving intelligent web applications, 
+        machine learning integration, and innovative development projects.
       </p>
       <div className={styles.container}>
         <div className={styles.contactContainer}>

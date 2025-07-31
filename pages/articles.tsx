@@ -22,7 +22,8 @@ const ArticlesPage = ({ articles }: ArticlesPageProps) => {
         >
           dev.to
         </a>{' '}
-        where I share insights and tutorials about web development.
+        where I share insights about full-stack development, AI/ML integration, 
+        and building intelligent web applications.
       </p>
       <div className={styles.container}>
         {articles.map((article) => (

@@ -7,13 +7,21 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
+   {
     title: 'CloudSync',
     description:
       'Image management system with dual storage - uploads to Cloudinary with local backup storage to ensure data integrity and prevent image loss.',
     logo: '/logos/react_icon.svg',
     link: 'https://cloudapp-frontend-kohl.vercel.app/',
     slug: 'cloudsync',
+  },
+  {
+    title: 'Employee Management System',
+    description:
+      'Modern employee management application built with React and Vite. ',
+    logo: '/logos/react_icon.svg',
+    link: 'https://ruhithems.vercel.app/',
+    slug: 'employee-management-system',
   },
   {
     title: 'AI-Powered Content Platform',

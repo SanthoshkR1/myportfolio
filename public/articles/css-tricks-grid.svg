@@ -1,0 +1,15 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#ff5722"/>
+  <rect x="20" y="20" width="360" height="260" fill="#ffffff" stroke="#ff5722" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" fill="#ff5722" font-family="Arial, sans-serif" font-size="18" font-weight="bold">CSS-Tricks</text>
+  <rect x="50" y="80" width="80" height="60" fill="#ff5722" rx="8"/>
+  <rect x="160" y="80" width="80" height="60" fill="#ffccbc" stroke="#ff5722" stroke-width="1" rx="8"/>
+  <rect x="270" y="80" width="80" height="60" fill="#ff5722" rx="8"/>
+  <text x="90" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CSS</text>
+  <text x="200" y="115" text-anchor="middle" fill="#ff5722" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GRID</text>
+  <text x="310" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">FLEX</text>
+  <text x="200" y="180" text-anchor="middle" fill="#ff5722" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Complete Guide to CSS Grid</text>
+  <text x="200" y="200" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="12">Modern Layout Techniques</text>
+  <rect x="80" y="220" width="240" height="20" fill="#ffeeee" stroke="#ff5722" stroke-width="1" rx="4"/>
+  <rect x="90" y="225" width="60" height="10" fill="#ff5722" rx="2"/>
+</svg>

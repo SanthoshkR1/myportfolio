@@ -33,17 +33,17 @@ const skills: Skill[] = [
   { name: 'Node.js', icon: '/logos/nodejs.svg', level: 85, category: 'Backend' },
   { name: 'Express.js', icon: '/logos/express.svg', level: 80, category: 'Backend' },
   { name: 'Python', icon: '/logos/python.svg', level: 75, category: 'Backend' },
-  { name: 'PHP', icon: '/logos/php.svg', level: 70, category: 'Backend' },
+  
   
   // Database
   { name: 'MongoDB', icon: '/logos/mongodb.svg', level: 80, category: 'Database' },
   { name: 'MySQL', icon: '/logos/mysql.svg', level: 75, category: 'Database' },
-  { name: 'PostgreSQL', icon: '/logos/postgresql.svg', level: 70, category: 'Database' },
+  // { name: 'PostgreSQL', icon: '/logos/postgresql.svg', level: 70, category: 'Database' },
   
   // Tools & Others
   { name: 'Git', icon: '/logos/git.svg', level: 85, category: 'Tools' },
-  { name: 'Docker', icon: '/logos/docker.svg', level: 65, category: 'Tools' },
-  { name: 'AWS', icon: '/logos/aws.svg', level: 60, category: 'Cloud' },
+  // { name: 'Docker', icon: '/logos/docker.svg', level: 65, category: 'Tools' },
+  // { name: 'AWS', icon: '/logos/aws.svg', level: 60, category: 'Cloud' },
   { name: 'Vercel', icon: '/logos/vercel.svg', level: 80, category: 'Cloud' },
   
   // AI & Machine Learning

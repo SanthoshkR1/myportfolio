@@ -72,8 +72,8 @@ const CertificatesPage: NextPage = () => {
             </div>
             
             <div className={styles.statCard}>
-              <h3 className={styles.statNumber}>5+</h3>
-              <p className={styles.statLabel}>Learning Platforms</p>
+              <h3 className={styles.statNumber}>1</h3>
+              <p className={styles.statLabel}>Learning Platform</p>
             </div>
             
             <div className={styles.statCard}>

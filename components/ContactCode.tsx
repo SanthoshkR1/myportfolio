@@ -19,17 +19,12 @@ const contactItems = [
   {
     social: 'linkedin',
     link: 'ruhithpasha',
-    href: 'https://www.linkedin.com/in/ruhithpasha/',
+    href: 'https://www.linkedin.com/in/ruhith-pasha-8a3625245?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFrAfDqUsSkqctu7FvjPIDQ%3D%3D',
   },
   {
-    social: 'twitter',
-    link: 'iamruhithpasha',
-    href: 'https://www.twitter.com/iamruhithpasha',
-  },
-  {
-    social: 'telegram',
-    link: 'iamruhithpasha',
-    href: 'https://t.me/iamruhithpasha',
+    social: 'instagram',
+    link: 'ruhithpasha',
+    href: 'https://www.instagram.com/_ruhith_pasha_/',
   },
   
 ];

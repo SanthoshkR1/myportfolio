@@ -1,0 +1,16 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a365d"/>
+  <rect x="20" y="20" width="360" height="260" fill="#ffffff" stroke="#2b77e6" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" fill="#2b77e6" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Smashing Magazine</text>
+  <rect x="60" y="80" width="280" height="3" fill="#2b77e6"/>
+  <circle cx="100" cy="120" r="12" fill="#2b77e6"/>
+  <circle cx="150" cy="120" r="12" fill="#48bb78"/>
+  <circle cx="200" cy="120" r="12" fill="#ed8936"/>
+  <circle cx="250" cy="120" r="12" fill="#9f7aea"/>
+  <circle cx="300" cy="120" r="12" fill="#38b2ac"/>
+  <text x="200" y="160" text-anchor="middle" fill="#2b77e6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">React Performance</text>
+  <text x="200" y="180" text-anchor="middle" fill="#2b77e6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Optimization Guide</text>
+  <text x="200" y="210" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="12">Best Practices &amp; Techniques</text>
+  <rect x="80" y="230" width="240" height="20" fill="#f7fafc" stroke="#2b77e6" stroke-width="1" rx="4"/>
+  <rect x="90" y="235" width="150" height="10" fill="#2b77e6" rx="2"/>
+</svg>

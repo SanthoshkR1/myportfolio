@@ -20,7 +20,7 @@ export const projects: Project[] = [
     description:
       'Modern employee management application built with React and Vite. ',
     logo: '/logos/react_icon.svg',
-    link: 'https://ruhithems.vercel.app/',
+    link: 'https://emsfrontend-roan.vercel.app/',
     slug: 'employee-management-system',
   },
   {

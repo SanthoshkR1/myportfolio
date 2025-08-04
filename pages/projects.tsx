@@ -18,8 +18,12 @@ const ProjectsPage = () => {
           <ProjectCard key={project.slug} project={project} />
         ))}
       </div>
+        <div><h1>
+    More projects coming soon</h1></div>
     </div>
+    
   );
+
 };
 
 export async function getStaticProps() {

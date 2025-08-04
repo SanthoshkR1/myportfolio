@@ -23,22 +23,22 @@ export const projects: Project[] = [
     link: 'https://emsfrontend-roan.vercel.app/',
     slug: 'employee-management-system',
   },
-  {
-    title: 'AI-Powered Content Platform',
-    description:
-      'Full-stack web application with AI integration for intelligent content generation and analysis.',
-    logo: '/logos/react_icon.svg',
-    link: 'https://github.com/ruhithpasha/ai-content-platform',
-    slug: 'ai-content-platform',
-  },
-  {
-    title: 'ML Model Deployment Dashboard',
-    description:
-      'React-based dashboard for deploying and monitoring machine learning models with real-time analytics.',
-    logo: '/logos/tensorflow.svg',
-    link: 'https://github.com/ruhithpasha/ml-dashboard',
-    slug: 'ml-dashboard',
-  },
+  // {
+  //   title: 'AI-Powered Content Platform',
+  //   description:
+  //     'Full-stack web application with AI integration for intelligent content generation and analysis.',
+  //   logo: '/logos/react_icon.svg',
+  //   link: 'https://github.com/ruhithpasha/ai-content-platform',
+  //   slug: 'ai-content-platform',
+  // },
+  // {
+  //   title: 'ML Model Deployment Dashboard',
+  //   description:
+  //     'React-based dashboard for deploying and monitoring machine learning models with real-time analytics.',
+  //   logo: '/logos/tensorflow.svg',
+  //   link: 'https://github.com/ruhithpasha/ml-dashboard',
+  //   slug: 'ml-dashboard',
+  // },
   {
     title: 'VSCode Portfolio',
     description:
@@ -47,12 +47,12 @@ export const projects: Project[] = [
     link: 'https://portfolioruhith.vercel.app/',
     slug: 'vscode-portfolio',
   },
-  {
-    title: 'Smart Data Analytics Tool',
-    description:
-      'Python-powered web app for data analysis with integrated ML algorithms and visualization.',
-    logo: '/logos/python.svg',
-    link: 'https://github.com/ruhithpasha/smart-analytics',
-    slug: 'smart-analytics',
-  },
+  // {
+  //   title: 'Smart Data Analytics Tool',
+  //   description:
+  //     'Python-powered web app for data analysis with integrated ML algorithms and visualization.',
+  //   logo: '/logos/python.svg',
+  //   link: 'https://github.com/ruhithpasha/smart-analytics',
+  //   slug: 'smart-analytics',
+  // },
 ];

@@ -42,8 +42,8 @@ const Sidebar = () => {
     
     // Use a more efficient download method
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Ruhith_Pasha_Resume.pdf';
+    link.href = '/Full Stack Developer Intern (2).pdf';
+    link.download = 'Full Stack Developer Intern (2).pdf';
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     

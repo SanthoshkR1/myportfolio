@@ -10,8 +10,8 @@ export default function HomePage() {
   const handleResumeDownload = (e: React.MouseEvent) => {
     e.preventDefault();
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Ruhith_Pasha_Resume.pdf';
+    link.href = '/Full Stack Developer Intern (2).pdf';
+    link.download = 'Full Stack Developer Intern (2).pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();

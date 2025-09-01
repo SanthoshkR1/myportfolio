@@ -1,0 +1,33 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="data-analysis-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#data-analysis-gradient)"/>
+  
+  <!-- Chart bars -->
+  <rect x="50" y="120" width="20" height="50" fill="white" opacity="0.9" rx="2"/>
+  <rect x="80" y="100" width="20" height="70" fill="white" opacity="0.9" rx="2"/>
+  <rect x="110" y="80" width="20" height="90" fill="white" opacity="0.9" rx="2"/>
+  <rect x="140" y="110" width="20" height="60" fill="white" opacity="0.9" rx="2"/>
+  <rect x="170" y="90" width="20" height="80" fill="white" opacity="0.9" rx="2"/>
+  
+  <!-- Pie chart -->
+  <circle cx="230" cy="100" r="30" fill="none" stroke="white" stroke-width="6" opacity="0.9"/>
+  <path d="M 230 70 A 30 30 0 0 1 250 130 L 230 100 Z" fill="white" opacity="0.7"/>
+  <path d="M 230 100 L 250 130 A 30 30 0 0 1 210 130 Z" fill="white" opacity="0.5"/>
+  
+  <!-- Title -->
+  <text x="150" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">DATA ANALYSIS</text>
+  <text x="150" y="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.9">Methods & Process</text>
+  
+  <!-- Data points -->
+  <circle cx="60" cy="50" r="3" fill="white" opacity="0.8"/>
+  <circle cx="240" cy="40" r="3" fill="white" opacity="0.8"/>
+  <circle cx="280" cy="160" r="3" fill="white" opacity="0.8"/>
+  <circle cx="20" cy="180" r="3" fill="white" opacity="0.8"/>
+</svg>

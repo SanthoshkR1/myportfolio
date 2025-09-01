@@ -4,67 +4,49 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Ruhith Pasha</h1>
-        <div className={styles.subtitle}>Full Stack Developer & AI/ML Specialist</div>
+        <h1 className={styles.title}>Santhosh K R</h1>
+        <div className={styles.subtitle}>Data Analyst</div>
 
-        <div className={styles.aboutContent}>
-          <section className={styles.section}>
-            <p className={styles.paragraph}>
-              Hey! I&apos;m a full-stack developer from India with a passion for integrating 
-              AI and Machine Learning into web applications. I primarily work with JavaScript, 
-              TypeScript, Python, and the React ecosystem to build intelligent solutions.
-            </p>
-            <p className={styles.paragraph}>
-              My expertise spans both frontend and backend development, with a special focus on 
-              implementing AI/ML models in real-world applications. I understand machine learning 
-              algorithms, model training processes, and how to effectively integrate ML APIs and 
-              frameworks into web applications.
-            </p>
-          </section>
+          <div className={styles.aboutContent}>
+            <section className={styles.section}>
+              <p className={styles.paragraph}>
+                Hello! I&apos;m a data analyst from India with a strong foundation in data analysis and visualization. My main tools are SQL, Excel, Python and PowerBI which I use to extract insights and create clear, informative dashboards.
+              </p>
+              <p className={styles.paragraph}>
+                I have basic knowledge of artificial intelligence concepts and am interested in how AI can enhance data analysis. I am familiar with simple machine learning techniques and enjoy learning how automation and predictive analytics can add value to business decisions.
+              </p>
+            </section>
 
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Education & Focus</h2>
-            <p className={styles.paragraph}>
-              Currently at <span className={styles.highlight}><b>Garden City University</b>, Bengaluru</span> as
-              Student, Pursuing Masters in Information Technology with a focus on Artificial Intelligence and Machine Learning.
-              This academic background complements my practical development skills with AI/ML theory and implementation.
-            </p>
-            <p className={styles.paragraph}>
-              I&apos;ve worked on numerous projects combining web development with AI/ML integration, including 
-              <span className={styles.highlight}> cloudSync</span> - a cloud storage application with intelligent 
-              features, and various ML-powered web applications that demonstrate practical AI implementation.
-            </p>
-          </section>
+            <section className={styles.section}>
+              <h2 className={styles.sectionTitle}>Education & Focus</h2>
+              <p className={styles.paragraph}>
+                Currently studying at <span className={styles.highlight}><b>Garden City University</b>, Bengaluru</span>, pursuing a Masters in Information Technology. My coursework includes the basics of artificial intelligence and machine learning, which I apply to practical data analysis tasks.
+              </p>
+              <p className={styles.paragraph}>
+                I&apos;ve worked on projects that combine data analytics with introductory AI concepts, such as simple classification and regression models, and I am keen to expand my skills further in this area.
+              </p>
+            </section>
 
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Technical Expertise</h2>
-            <p className={styles.paragraph}>
-              <span className={styles.highlight}>Frontend:</span> Building responsive, 
-              interactive UIs with React, Next.js, and TypeScript that seamlessly integrate 
-              AI-powered features and real-time ML predictions.
-            </p>
-            <p className={styles.paragraph}>
-              <span className={styles.highlight}>Backend:</span> Developing robust APIs 
-              with Node.js, Express, and Python that handle ML model inference, data 
-              processing, and serve intelligent applications at scale.
-            </p>
-            <p className={styles.paragraph}>
-              <span className={styles.highlight}>AI/ML Integration:</span> Practical 
-              implementation of machine learning models using TensorFlow, PyTorch, and 
-              scikit-learn. Focus on algorithm understanding, model training, testing, 
-              evaluation, and deployment rather than deep mathematical theory.
-            </p>
-          </section>
+            <section className={styles.section}>
+              <h2 className={styles.sectionTitle}>Technical Expertise</h2>
+              <p className={styles.paragraph}>
+                <span className={styles.highlight}>Data Analysis:</span> Skilled in using SQL, Excel, PowerBI and basic Python for data cleaning, visualization, and reporting.
+              </p>
+              <p className={styles.paragraph}>
+                <span className={styles.highlight}>AI Basics:</span> Understanding of fundamental machine learning concepts such as supervised and unsupervised learning, and experience with simple models using libraries like scikit-learn.
+              </p>
+              <p className={styles.paragraph}>
+                <span className={styles.highlight}>Tools:</span> Experience with data visualization tools and Python scripting for automating repetitive tasks and analyzing datasets.
+              </p>
+            </section>
 
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Beyond Code</h2>
-            <p className={styles.paragraph}>
-              When I&apos;m not coding or working with ML models, I enjoy exploring new AI technologies, 
-              reading about emerging trends in machine learning, and experimenting with different frameworks. 
-              I also like to read, listen to music, and continuously learn about the evolving landscape of AI/ML.
-            </p>
-          </section>
-        </div>
+            <section className={styles.section}>
+              <h2 className={styles.sectionTitle}>Beyond Code</h2>
+              <p className={styles.paragraph}>
+                Outside of work, I enjoy exploring new trends in data analytics and AI, reading about technology, and learning new skills to stay updated in the field. I also like music, reading, and connecting with others who share an interest in data and technology.
+              </p>
+            </section>
+          </div>
       </div>
     </div>
   );

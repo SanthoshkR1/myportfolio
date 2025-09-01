@@ -37,6 +37,14 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
             />
             <div className={styles.userInfo}>
               <h2 className={styles.username}>{user.login}</h2>
+              <a 
+                href={`https://github.com/${user.login}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.profileLink}
+              >
+                View on GitHub →
+              </a>
               <div className={styles.stats}>
                 <div className={styles.statItem}>
                   <VscRepo className={styles.statIcon} />
@@ -59,6 +67,18 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
             <RepoCard key={repo.id} repo={repo} />
           ))}
         </div>
+        
+        <div className={styles.viewAllRepos}>
+          <a 
+            href={`https://github.com/${user.login}?tab=repositories`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.viewAllLink}
+          >
+            View All Repositories on GitHub →
+          </a>
+        </div>
+        
         <div className={styles.contributions}>
           <GitHubCalendar
             username={process.env.NEXT_PUBLIC_GITHUB_USERNAME!}

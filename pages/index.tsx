@@ -10,8 +10,8 @@ export default function HomePage() {
   const handleResumeDownload = (e: React.MouseEvent) => {
     e.preventDefault();
     const link = document.createElement('a');
-    link.href = '/Full Stack Developer Intern (2).pdf';
-    link.download = 'Full Stack Developer Intern (2).pdf';
+    link.href = '/santoshresume.pdf';
+    link.download = '/santoshresume.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
@@ -25,9 +25,9 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Ruhith Pasha',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer & AI/ML Specialist',", type: 'array-item' },
-    { code: "    bio: 'Building intelligent web applications with AI/ML integration'", type: 'array-item' },
+    { code: "    name: 'Santhosh K R',", type: 'array-item' },
+    { code: "    role: 'Aspiring Data Analyst',", type: 'array-item' },
+    { code: "    bio: 'Transforming raw data into actionable insights with analytics and AI'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -102,14 +102,14 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Ruhith <span className={styles.accentText}>pasha</span>
+            Santhosh <span className={styles.accentText}>K R</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Developer & AI/ML Specialist</div>
+          <div className={styles.developerRole}>Aspiring Data Analyst</div>
 
           <p className={styles.bio}>
-            I build intelligent, responsive web applications that integrate AI/ML capabilities. 
-            Focused on practical implementation of machine learning models and modern web technologies.
+            I analyze and transform data to uncover meaningful insights and support business decisions. 
+            Focused on data visualization, statistical analysis, and basic machine learning applications.
           </p>
 
           <div className={styles.actionLinks}>

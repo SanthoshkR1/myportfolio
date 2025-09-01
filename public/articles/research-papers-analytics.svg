@@ -1,0 +1,47 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="research-papers-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c026d3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#research-papers-gradient)"/>
+  
+  <!-- Multiple research papers -->
+  <rect x="40" y="60" width="60" height="80" fill="white" opacity="0.9" rx="3"/>
+  <rect x="110" y="70" width="60" height="80" fill="white" opacity="0.9" rx="3"/>
+  <rect x="180" y="65" width="60" height="80" fill="white" opacity="0.9" rx="3"/>
+  
+  <!-- Paper content lines -->
+  <line x1="50" y1="75" x2="90" y2="75" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="50" y1="85" x2="85" y2="85" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="50" y1="95" x2="90" y2="95" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  
+  <line x1="120" y1="85" x2="160" y2="85" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="120" y1="95" x2="155" y2="95" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="120" y1="105" x2="160" y2="105" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  
+  <line x1="190" y1="80" x2="230" y2="80" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="190" y1="90" x2="225" y2="90" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="190" y1="100" x2="230" y2="100" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Analytics symbols -->
+  <circle cx="70" cy="120" r="4" fill="#7c3aed" opacity="0.8"/>
+  <rect x="135" y="125" width="8" height="15" fill="#7c3aed" opacity="0.8"/>
+  <polygon points="210,115 215,125 205,125" fill="#7c3aed" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="150" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TOP RESEARCH PAPERS</text>
+  <text x="150" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.9">Data Analytics Collection</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="260" cy="50" r="2" fill="white" opacity="0.8"/>
+  <circle cx="270" cy="170" r="2" fill="white" opacity="0.8"/>
+  <circle cx="30" cy="40" r="2" fill="white" opacity="0.8"/>
+  <circle cx="20" cy="170" r="2" fill="white" opacity="0.8"/>
+  
+  <!-- Analytics chart in corner -->
+  <polyline points="250,160 255,150 260,155 265,145 270,150" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+</svg>

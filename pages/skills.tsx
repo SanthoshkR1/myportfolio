@@ -20,63 +20,57 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  // Frontend
-  { name: 'JavaScript', icon: '/logos/js_icon.svg', level: 90, category: 'Frontend' },
-  { name: 'TypeScript', icon: '/logos/typescript.svg', level: 85, category: 'Frontend' },
-  { name: 'React', icon: '/logos/react_icon.svg', level: 90, category: 'Frontend' },
-  { name: 'Next.js', icon: '/logos/nextjs.svg', level: 85, category: 'Frontend' },
-  { name: 'HTML5', icon: '/logos/html_icon.svg', level: 95, category: 'Frontend' },
-  { name: 'CSS3', icon: '/logos/css_icon.svg', level: 90, category: 'Frontend' },
-  { name: 'Tailwind CSS', icon: '/logos/tailwind.svg', level: 80, category: 'Frontend' },
+  // Core Programming & Data Analysis
+  { name: 'Python', icon: '/logos/python.svg', level: 85, category: 'Programming' },
+  { name: 'SQL', icon: '/logos/mysql.svg', level: 90, category: 'Database' },
   
-  // Backend
-  { name: 'Node.js', icon: '/logos/nodejs.svg', level: 85, category: 'Backend' },
-  { name: 'Express.js', icon: '/logos/express.svg', level: 80, category: 'Backend' },
-  { name: 'Python', icon: '/logos/python.svg', level: 75, category: 'Backend' },
+  // Data Analysis & Visualization Tools
+  { name: 'Power BI', icon: '/logos/powerbi.svg', level: 80, category: 'Visualization' },
+  { name: 'Excel', icon: '/logos/pandas.svg', level: 85, category: 'Visualization' },
+  { name: 'Matplotlib', icon: '/logos/python.svg', level: 85, category: 'Visualization' },
+  { name: 'Seaborn', icon: '/logos/python.svg', level: 80, category: 'Visualization' },
   
-  
-  // Database
-  { name: 'MongoDB', icon: '/logos/mongodb.svg', level: 80, category: 'Database' },
-  { name: 'MySQL', icon: '/logos/mysql.svg', level: 75, category: 'Database' },
-  // { name: 'PostgreSQL', icon: '/logos/postgresql.svg', level: 70, category: 'Database' },
-  
-  // Tools & Others
+  // Version Control & Collaboration
   { name: 'Git', icon: '/logos/git.svg', level: 85, category: 'Tools' },
-  // { name: 'Docker', icon: '/logos/docker.svg', level: 65, category: 'Tools' },
-  // { name: 'AWS', icon: '/logos/aws.svg', level: 60, category: 'Cloud' },
-  { name: 'Vercel', icon: '/logos/vercel.svg', level: 80, category: 'Cloud' },
+  { name: 'GitHub', icon: '/logos/git.svg', level: 85, category: 'Tools' },
   
-  // AI & Machine Learning
-  { name: 'Python (AI/ML)', icon: '/logos/python.svg', level: 85, category: 'AI/ML' },
-  { name: 'TensorFlow', icon: '/logos/tensorflow.svg', level: 80, category: 'AI/ML' },
-  { name: 'PyTorch', icon: '/logos/pytorch.svg', level: 75, category: 'AI/ML' },
-  { name: 'Scikit-learn', icon: '/logos/sklearn.svg', level: 85, category: 'AI/ML' },
+  // AI & Machine Learning Libraries
   { name: 'Pandas', icon: '/logos/pandas.svg', level: 90, category: 'AI/ML' },
   { name: 'NumPy', icon: '/logos/numpy.svg', level: 90, category: 'AI/ML' },
-  { name: 'OpenAI API', icon: '/logos/openai.svg', level: 80, category: 'AI/ML' },
   { name: 'Jupyter', icon: '/logos/jupyter.svg', level: 85, category: 'AI/ML' },
+  { name: 'Scikit-learn', icon: '/logos/sklearn.svg', level: 80, category: 'AI/ML' },
+  { name: 'PyTorch', icon: '/logos/pytorch.svg', level: 70, category: 'AI/ML' },
+  { name: 'Machine Learning Algorithms', icon: '/logos/sklearn.svg', level: 75, category: 'AI/ML' },
+  
+  // Cloud & Statistics
+  { name: 'AWS (Basic)', icon: '/logos/aws.svg', level: 65, category: 'Cloud' },
+  { name: 'Statistics', icon: '/logos/python.svg', level: 75, category: 'Analytics' },
+  { name: 'Data Visualization tools', icon: '/logos/python.svg', level: 85, category: 'Analytics' },
+  { name: 'Exploratory Data Analysis', icon: '/logos/pandas.svg', level: 85, category: 'Analytics' },
+  { name: 'Data Cleaning & Preparation', icon: '/logos/pandas.svg', level: 90, category: 'Analytics' },
 ];
 
-const categories = ['Frontend', 'Backend', 'Database', 'AI/ML', 'Tools', 'Cloud'];
+const categories = ['Programming', 'Database', 'Visualization', 'Tools', 'AI/ML', 'Cloud', 'Analytics'];
 
 const categoryIcons = {
-  Frontend: VscBrowser,
-  Backend: VscServer,
+  Programming: VscCode,
   Database: VscDatabase,
-  'AI/ML': VscRocket,
+  Visualization: VscBrowser,
   Tools: VscTools,
+  'AI/ML': VscRocket,
   Cloud: VscCloud,
+  Analytics: VscGlobe,
 };
 
 const SkillsPage = () => {
   return (
     <div className={styles.layout}>
       <div className={styles.pageHeading}>
-        <h1 className={styles.pageTitle}>Technical Skills & AI/ML Expertise</h1>
+        <h1 className={styles.pageTitle}>Data Analysis & AI Skills</h1>
         <p className={styles.pageSubtitle}>
-          A comprehensive overview of my technical skills in full-stack development 
-          and practical AI/ML implementation. Focused on building intelligent web 
-          applications with modern technologies and machine learning integration.
+          A comprehensive overview of my technical skills in data analysis, 
+          visualization, and basic AI/ML implementation. Focused on extracting 
+          insights from data using modern tools and statistical methods.
         </p>
       </div>
 
@@ -129,28 +123,28 @@ const SkillsPage = () => {
       <div className={styles.additionalInfo}>
         <div className={styles.infoCard}>
           <VscCode className={styles.infoIcon} />
-          <h3>Always Learning</h3>
+          <h3>Continuous Learning</h3>
           <p>
-            I&apos;m constantly exploring new technologies and improving my skills.
-            Currently diving deeper into advanced AI/ML techniques, MLOps, and modern deployment strategies.
+            I&apos;m constantly exploring new data analysis techniques and improving my skills.
+            Currently expanding my knowledge in advanced statistical methods and machine learning algorithms.
           </p>
         </div>
         
         <div className={styles.infoCard}>
           <VscGlobe className={styles.infoIcon} />
-          <h3>Full Stack + AI Focus</h3>
+          <h3>Data Analysis Focus</h3>
           <p>
-            Experienced in both frontend and backend development, with practical expertise in AI/ML integration.
-            I build intelligent web applications that leverage machine learning for enhanced user experiences.
+            Experienced in extracting insights from data using SQL, Python, and visualization tools.
+            I specialize in transforming raw data into actionable business intelligence and clear reports.
           </p>
         </div>
         
         <div className={styles.infoCard}>
           <VscRocket className={styles.infoIcon} />
-          <h3>AI & Machine Learning</h3>
+          <h3>AI & Statistics</h3>
           <p>
-            Practical experience with ML algorithms, model training/testing, and AI integration in web apps.
-            Focus on understanding how algorithms work rather than mathematical theory, with hands-on implementation.
+            Basic knowledge of machine learning algorithms and statistical methods.
+            Focus on understanding practical applications of AI in data analysis and predictive modeling.
           </p>
         </div>
       </div>

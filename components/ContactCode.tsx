@@ -3,28 +3,28 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'portfolioruhith.vercel.app',
+    link: 'portfolioruhith.vercel.app', 
     href: 'https://portfolioruhith.vercel.app',
   },
   {
     social: 'email',
-    link: 'pro.ruhithpasha@gmail.com',
-    href: 'mailto:pro.ruhithpasha@gmail.com',
+    link: 'santhoshkr366@gmail.com',
+    href: 'mailto:santhoshkr366@gmail.com',
   },
   {
     social: 'github',
-    link: 'ruhithpasha',
-    href: 'https://github.com/ruhithpasha',
+    link: 'Santhosh K R',
+    href: 'https://github.com/SanthoshkR1',
   },
   {
     social: 'linkedin',
-    link: 'ruhithpasha',
-    href: 'https://www.linkedin.com/in/ruhith-pasha-8a3625245?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFrAfDqUsSkqctu7FvjPIDQ%3D%3D',
+    link: 'Santhosh K R',
+    href: 'https://www.linkedin.com/in/santhosh-k-r-aa1426277/',
   },
   {
     social: 'instagram',
-    link: 'ruhithpasha',
-    href: 'https://www.instagram.com/_ruhith_pasha_/',
+    link: 'Santhosh K R',
+    href: 'https://www.instagram.com/_._santhosh_._shetty/',
   },
   
 ];

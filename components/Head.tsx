@@ -31,5 +31,5 @@ const CustomHead = ({ title }: CustomHeadProps) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Ruhith Pasha - Full Stack Developer & AI/ML Specialist',
+  title: 'Santhosh K R - Data Analyst',
 };

@@ -6,7 +6,6 @@ import {
   VscTools, 
   VscCloud,
   VscBrowser,
-  VscServer,
   VscRocket
 } from 'react-icons/vsc';
 
